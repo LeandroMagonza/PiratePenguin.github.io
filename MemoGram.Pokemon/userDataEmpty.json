@@ -1,0 +1,129 @@
+{
+  "name": "NOT_SET",
+  "id": 0,
+  "coins": 0,
+  "stages": [
+    {
+      "stage": 0,
+      "difficulty": 0,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [
+      ],
+      "matches": []
+    },
+    {
+      "stage": 0,
+      "difficulty": 1,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 0,
+      "difficulty": 2,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 1,
+      "difficulty": 0,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 1,
+      "difficulty": 1,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 1,
+      "difficulty": 2,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 2,
+      "difficulty": 0,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 2,
+      "difficulty": 1,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 2,
+      "difficulty": 2,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 3,
+      "difficulty": 0,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 3,
+      "difficulty": 1,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 3,
+      "difficulty": 2,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 4,
+      "difficulty": 0,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 4,
+      "difficulty": 1,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 4,
+      "difficulty": 2,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    }
+  ],
+  "imageDuplicates": null
+}
