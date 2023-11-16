@@ -125,5 +125,10 @@
       "matches": []
     }
   ],
-  "imageDuplicates": null
+  "imageDuplicates": {
+    "0": 1,
+    "3": 1,
+    "6": 1,
+    "24": 1
+  }
 }
