@@ -7,9 +7,8 @@
       "stage": 0,
       "difficulty": 0,
       "clearedImages": [],
-      "highScore": 0,
-      "achievements": [
-      ],
+      "highScore": 4,
+      "achievements": [],
       "matches": []
     },
     {
@@ -27,7 +26,7 @@
       "highScore": 0,
       "achievements": [],
       "matches": []
-    }  
+    }
   ],
   "imageDuplicates": {
     "0": 1,
