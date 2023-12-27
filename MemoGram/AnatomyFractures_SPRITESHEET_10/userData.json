@@ -7,7 +7,7 @@
       "stage": 0,
       "difficulty": 0,
       "clearedImages": [],
-      "highScore": 4,
+      "highScore": 0,
       "achievements": [],
       "matches": []
     },
@@ -21,6 +21,30 @@
     },
     {
       "stage": 0,
+      "difficulty": 2,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 1,
+      "difficulty": 0,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 1,
+      "difficulty": 1,
+      "clearedImages": [],
+      "highScore": 0,
+      "achievements": [],
+      "matches": []
+    },
+    {
+      "stage": 1,
       "difficulty": 2,
       "clearedImages": [],
       "highScore": 0,
