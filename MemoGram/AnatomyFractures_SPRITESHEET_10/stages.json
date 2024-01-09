@@ -10,7 +10,7 @@
         "0":100
       },
       "packCost":100,
-      "imageSet":2
+      "stickerSet":"AnatomyFractures_SPRITESHEET_10"
     },
     {
       "stageID": 1,
@@ -22,7 +22,7 @@
         "1":100
       },
       "packCost":100,
-      "imageSet":2
+      "stickerSet":"AnatomyBones_SPRITESHEET_10"
     }
     
   ],

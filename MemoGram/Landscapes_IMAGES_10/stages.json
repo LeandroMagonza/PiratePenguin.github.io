@@ -14,7 +14,7 @@
         "4":1
       },
       "packCost":100,
-      "imageSet":"Landscapes_IMAGES_10"
+      "stickerSet":"Landscapes_IMAGES_10"
     },
     {
       "stageID": 1,
@@ -30,7 +30,7 @@
         "4":3
       },
       "packCost":200,
-      "imageSet":"Landscapes_IMAGES_10"
+      "stickerSet":"Landscapes_IMAGES_10"
     },
     {
       "stageID": 2,
@@ -46,7 +46,7 @@
         "4":10
       },
       "packCost":300,
-      "imageSet":"Landscapes_IMAGES_10"
+      "stickerSet":"Landscapes_IMAGES_10"
     },
     {
       "stageID": 3,
@@ -62,7 +62,7 @@
         "4":50
       },
       "packCost":400,
-      "imageSet":"Landscapes_IMAGES_10"
+      "stickerSet":"Landscapes_IMAGES_10"
     }
   ],
   "stickerLevels":{

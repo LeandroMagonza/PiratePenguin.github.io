@@ -14,7 +14,7 @@
         "4":1
       },
       "packCost":100,
-      "imageSet":"Pokemons_SPRITESHEET_151"
+      "stickerSet":"Pokemons_SPRITESHEET_151"
     },
     {
       "stageID": 1,
@@ -30,7 +30,7 @@
         "4":3
       },
       "packCost":200,
-      "imageSet":"Pokemons_SPRITESHEET_151"
+      "stickerSet":"Pokemons_SPRITESHEET_151"
     },
     {
       "stageID": 2,
@@ -46,7 +46,7 @@
         "4":10
       },
       "packCost":300,
-      "imageSet":"Pokemons_SPRITESHEET_151"
+      "stickerSet":"Pokemons_SPRITESHEET_151"
     },
     {
       "stageID": 3,
@@ -62,7 +62,7 @@
         "4":50
       },
       "packCost":400,
-      "imageSet":"Pokemons_SPRITESHEET_151"
+      "stickerSet":"Pokemons_SPRITESHEET_151"
     },
     {
       "stageID": 4,
@@ -78,7 +78,7 @@
         "4":100
       },
       "packCost":500,
-      "imageSet":"Pokemons_SPRITESHEET_151"
+      "stickerSet":"Pokemons_SPRITESHEET_151"
     }
   ],
   "stickerLevels":{
