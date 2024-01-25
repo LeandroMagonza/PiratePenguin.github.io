@@ -157,25 +157,21 @@ function loadGames() {
     // Create the card HTML
 
     const cardHtml = `
-          <article class="postcard dark ${getCardColor(index)}">
-                    <a class="postcard__img_link" onclick="openModal('${
-                      game.id
-                    }')">
+          <article class="postcard dark ${getCardColor(index)}" onclick="openModal('${game.id
+      }')">
+                    <a class="postcard__img_link" >
                         <img class="postcard__img" 
-                        src="https://leandromagonza.github.io/portfolioImages/${
-                          game.images[0]
-                        }"
+                        src="https://leandromagonza.github.io/portfolioImages/${game.images[0]
+      }"
                         alt="${game.name}" />
                     </a>
                     <div class="postcard__text">
-                        <h1 class="postcard__title red"><a href="#">${
-                          game.name
-                        }</a></h1>
+                        <h1 class="postcard__title red"><a href="#">${game.name
+      }</a></h1>
                         
                         <div class="postcard__bar"></div>
-                        <div class="postcard__preview-txt">${
-                          game.description
-                        }</div>
+                        <div class="postcard__preview-txt">${game.description
+      }</div>
                         ${CreateTagboxList(game)}
                         </div>
                     </div>
@@ -189,32 +185,24 @@ function loadGames() {
 function CreateTagboxList(game) {
   const cardTagbox = `
     <ul class="postcard__tagbox">
-          <li class="tag__item play  ${
-            !game.hasOwnProperty("trailerLink") ? "hide" : ""
-          }" id="modalPlayTrailerItem">
-            <a id="modalPlayTrailer" href="${
-              game.trailerLink
-            }"><i class="fas fa-play mr-2"></i>View Trailer</a>
-          <li class="tag__item play  ${
-            !game.hasOwnProperty("playLink") ? "hide" : ""
-          }" id="modalPlayLinkItem">
-            <a id="modalPlayLink" href="${
-              game.playLink
-            }"><i class="fas fa-gamepad mr-2"></i>Play Demo</a>
+          <li class="tag__item play  ${!game.hasOwnProperty("trailerLink") ? "hide" : ""
+    }" id="modalPlayTrailerItem">
+            <a id="modalPlayTrailer" onclick="event.stopPropagation();" href="${game.trailerLink
+    }"><i class="fas fa-play mr-2"></i>View Trailer</a>
+          <li class="tag__item play  ${!game.hasOwnProperty("playLink") ? "hide" : ""
+    }" id="modalPlayLinkItem">
+            <a id="modalPlayLink" onclick="event.stopPropagation();" href="${game.playLink
+    }"><i class="fas fa-gamepad mr-2"></i>Play Demo</a>
           </li>
-          <li class="tag__item play ${
-            !game.hasOwnProperty("codeLink") ? "hide" : ""
-          }" id="modalCodeLinkItem">
-            <a id="modalCodeLink" href="${
-              game.codeLink
-            }"><i class="fas fa-code mr-2"></i>View Code</a>
+          <li class="tag__item play ${!game.hasOwnProperty("codeLink") ? "hide" : ""
+    }" id="modalCodeLinkItem">
+            <a id="modalCodeLink" onclick="event.stopPropagation();" href="${game.codeLink
+    }"><i class="fas fa-code mr-2"></i>View Code</a>
           </li>
-          <li class="tag__item play ${
-            !game.hasOwnProperty("updateLink") ? "hide" : ""
-          }" id="modalViewUpdateItem">
-            <a id="modalViewUpdate" href="${
-              game.updateLink
-            }"><i class="fas fa-exclamation mr-2"></i>Last Update</a>
+          <li class="tag__item play ${!game.hasOwnProperty("updateLink") ? "hide" : ""
+    }" id="modalViewUpdateItem">
+            <a id="modalViewUpdate" onclick="event.stopPropagation();" href="${game.updateLink
+    }"><i class="fas fa-exclamation mr-2"></i>Last Update</a>
           </li>
   
         </ul>`;

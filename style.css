@@ -1,480 +1,574 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+
 /* This pen */
- body {
-	 font-family: "Baloo 2", cursive;
-	 font-size: 16px;
-	 color: #fff;
-	 text-rendering: optimizeLegibility;
-	 font-weight: initial;
+body {
+	font-family: "Baloo 2", cursive;
+	font-size: 16px;
+	color: #fff;
+	text-rendering: optimizeLegibility;
+	font-weight: initial;
 }
- .dark {
-	 background: #110f16;
+
+.dark {
+	background: #110f16;
 }
- .light {
-	 background: #f3f5f7;
+
+.light {
+	background: #f3f5f7;
 }
- a, a:hover {
-	 text-decoration: none;
-	 transition: color 0.3s ease-in-out;
+
+a,
+a:hover {
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
 }
- #pageHeaderTitle {
-	 margin: 2rem 0;
-	 text-transform: uppercase;
-	 text-align: center;
-	 font-size: 2.5rem;
+
+#pageHeaderTitle {
+	margin: 2rem 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2.5rem;
 }
+
 /* Cards */
- .postcard {
-	 flex-wrap: wrap;
-	 display: flex;
-	 box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
-	 border-radius: 10px;
-	 margin: 0 0 2rem 0;
-	 overflow: hidden;
-	 position: relative;
-	 color: #fff;
+.postcard {
+	flex-wrap: wrap;
+	display: flex;
+	box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+	border-radius: 10px;
+	margin: 0 0 2rem 0;
+	overflow: hidden;
+	position: relative;
+	color: #fff;
 }
- .postcard.dark {
-	 background-color: #18151f;
+
+.postcard.dark {
+	background-color: #18151f;
 }
- .postcard.light {
-	 background-color: #e1e5ea;
+
+.postcard.light {
+	background-color: #e1e5ea;
 }
- .postcard .t-dark {
-	 color: #18151f;
+
+.postcard .t-dark {
+	color: #18151f;
 }
- .postcard a {
-	 color: inherit;
+
+.postcard a {
+	color: inherit;
 }
- .postcard h1, .postcard .h1 {
-	 margin-bottom: 0.5rem;
-	 font-weight: 500;
-	 line-height: 1.2;
+
+.postcard h1,
+.postcard .h1 {
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	line-height: 1.2;
 }
- .postcard .small {
-	 font-size: 80%;
+
+.postcard .small {
+	font-size: 80%;
 }
- .postcard .postcard__title {
-	 font-size: 1.75rem;
+
+.postcard .postcard__title {
+	font-size: 1.75rem;
 }
- .postcard .postcard__img {
-	 max-height: 140px;
-	 width: 100%;
-	 object-fit: cover;
-	 position: relative;
+
+.postcard .postcard__img {
+	max-height: 140px;
+	width: 100%;
+	object-fit: cover;
+	position: relative;
 }
- .postcard .postcard__img_link {
-	 display: contents;
+
+.postcard .postcard__img_link {
+	display: contents;
 }
- .postcard .postcard__bar {
-	 width: 50px;
-	 height: 10px;
-	 margin: 10px 0;
-	 border-radius: 5px;
-	 background-color: #424242;
-	 transition: width 0.2s ease;
+
+.postcard .postcard__bar {
+	width: 50px;
+	height: 10px;
+	margin: 10px 0;
+	border-radius: 5px;
+	background-color: #424242;
+	transition: width 0.2s ease;
 }
- .postcard .postcard__text {
-	 padding: 1.5rem;
-	 position: relative;
-	 display: flex;
-	 flex-direction: column;
+
+.postcard .postcard__text {
+	padding: 1.5rem;
+	position: relative;
+	display: flex;
+	flex-direction: column;
 }
- .postcard .postcard__preview-txt {
-	 overflow: hidden;
-	 text-overflow: ellipsis;
-	 text-align: justify;
-	 height: 100%;
+
+.postcard .postcard__preview-txt {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: justify;
+	height: 100%;
 }
- .postcard .postcard__tagbox {
-	 display: flex;
-	 flex-flow: row wrap;
-	 font-size: 14px;
-	 margin: 20px 0 0 0;
-	 padding: 0;
-	 justify-content: center;
-	 color: #fff;
+
+.postcard .postcard__tagbox {
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 14px;
+	margin: 20px 0 0 0;
+	padding: 0;
+	justify-content: center;
+	color: #fff;
 }
- .postcard .postcard__tagbox .tag__item {
-	 display: inline-block;
-	 background: rgba(83, 83, 83, 0.4);
-	 border-radius: 3px;
-	 padding: 2.5px 10px;
-	 margin: 0 5px 5px 0;
-	 cursor: default;
-	 user-select: none;
-	 transition: background-color 0.3s;
-	 color: #fff;
+
+.postcard .postcard__tagbox .tag__item {
+	display: inline-block;
+	background: rgba(83, 83, 83, 0.4);
+	border-radius: 3px;
+	padding: 2.5px 10px;
+	margin: 0 5px 5px 0;
+	cursor: default;
+	user-select: none;
+	transition: background-color 0.3s;
+	color: #fff;
 }
- .postcard .postcard__tagbox .tag__item:hover {
-	 background: rgba(83, 83, 83, 0.8);
+
+.postcard .postcard__tagbox .tag__item:hover {
+	background: rgba(83, 83, 83, 0.8);
 }
- .postcard:before {
-	 content: "";
-	 position: absolute;
-	 top: 0;
-	 right: 0;
-	 bottom: 0;
-	 left: 0;
-	 background-image: linear-gradient(-70deg, #424242, transparent 50%);
-	 opacity: 1;
-	 border-radius: 10px;
+
+.postcard:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(-70deg, #424242, transparent 50%);
+	opacity: 1;
+	border-radius: 10px;
 }
- .postcard:hover .postcard__bar {
-	 width: 100px;
+
+.postcard:hover .postcard__bar {
+	width: 100px;
 }
- @media screen and (min-width: 769px) {
-	 .postcard {
-		 flex-wrap: inherit;
+
+@media screen and (min-width: 769px) {
+	.postcard {
+		flex-wrap: inherit;
 	}
-	 .postcard .postcard__title {
-		 font-size: 2rem;
+
+	.postcard .postcard__title {
+		font-size: 2rem;
 	}
-	 .postcard .postcard__tagbox {
-		 justify-content: start;
+
+	.postcard .postcard__tagbox {
+		justify-content: start;
 	}
-	 .postcard .postcard__img {
-		 max-width: 300px;
-		 max-height: 100%;
-		 transition: transform 0.3s ease;
+
+	.postcard .postcard__img {
+		max-width: 300px;
+		max-height: 100%;
+		transition: transform 0.3s ease;
 	}
-	 .postcard .postcard__text {
-		 padding: 3rem;
-		 width: 100%;
+
+	.postcard .postcard__text {
+		padding: 3rem;
+		width: 100%;
 	}
-	 .postcard .media.postcard__text:before {
-		 content: "";
-		 position: absolute;
-		 display: block;
-		 background: #18151f;
-		 top: -20%;
-		 height: 130%;
-		 width: 55px;
+
+	.postcard .media.postcard__text:before {
+		content: "";
+		position: absolute;
+		display: block;
+		background: #18151f;
+		top: -20%;
+		height: 130%;
+		width: 55px;
 	}
-	 .postcard:hover .postcard__img {
-		 transform: scale(1.1);
+
+	.postcard:hover .postcard__img {
+		transform: scale(1.1);
 	}
-	 .postcard:nth-child(2n + 1) {
-		 flex-direction: row;
+
+	.postcard:nth-child(2n + 1) {
+		flex-direction: row;
 	}
-	 .postcard:nth-child(2n + 0) {
-		 flex-direction: row-reverse;
+
+	.postcard:nth-child(2n + 0) {
+		flex-direction: row-reverse;
 	}
-	 .postcard:nth-child(2n + 1) .postcard__text::before {
-		 left: -12px !important;
-		 transform: rotate(4deg);
+
+	.postcard:nth-child(2n + 1) .postcard__text::before {
+		left: -12px !important;
+		transform: rotate(4deg);
 	}
-	 .postcard:nth-child(2n + 0) .postcard__text::before {
-		 right: -12px !important;
-		 transform: rotate(-4deg);
-	}
-}
- @media screen and (min-width: 1024px) {
-	 .postcard__text {
-		 padding: 2rem 3.5rem;
-	}
-	 .postcard__text:before {
-		 content: "";
-		 position: absolute;
-		 display: block;
-		 top: -20%;
-		 height: 130%;
-		 width: 55px;
-	}
-	 .postcard.dark .postcard__text:before {
-		 background: #18151f;
-	}
-	 .postcard.light .postcard__text:before {
-		 background: #e1e5ea;
+
+	.postcard:nth-child(2n + 0) .postcard__text::before {
+		right: -12px !important;
+		transform: rotate(-4deg);
 	}
 }
+
+@media screen and (min-width: 1024px) {
+	.postcard__text {
+		padding: 2rem 3.5rem;
+	}
+
+	.postcard__text:before {
+		content: "";
+		position: absolute;
+		display: block;
+		top: -20%;
+		height: 130%;
+		width: 55px;
+	}
+
+	.postcard.dark .postcard__text:before {
+		background: #18151f;
+	}
+
+	.postcard.light .postcard__text:before {
+		background: #e1e5ea;
+	}
+}
+
 /* COLORS */
- .postcard__tagbox .green.play:hover {
-	 background: #79dd09;
-	 color: black;
+.postcard__tagbox .green.play:hover {
+	background: #79dd09;
+	color: black;
 }
- .green .postcard__title:hover {
-	 color: #79dd09;
+
+.green .postcard__title:hover {
+	color: #79dd09;
 }
- .green .postcard__bar {
-	 background-color: #79dd09;
+
+.green .postcard__bar {
+	background-color: #79dd09;
 }
- .green::before {
-	 background-image: linear-gradient(-30deg, rgba(121, 221, 9, 0.1), transparent 50%);
+
+.green::before {
+	background-image: linear-gradient(-30deg, rgba(121, 221, 9, 0.1), transparent 50%);
 }
- .green:nth-child(2n)::before {
-	 background-image: linear-gradient(30deg, rgba(121, 221, 9, 0.1), transparent 50%);
+
+.green:nth-child(2n)::before {
+	background-image: linear-gradient(30deg, rgba(121, 221, 9, 0.1), transparent 50%);
 }
- .postcard__tagbox .blue.play:hover {
-	 background: #0076bd;
+
+.postcard__tagbox .blue.play:hover {
+	background: #0076bd;
 }
- .blue .postcard__title:hover {
-	 color: #0076bd;
+
+.blue .postcard__title:hover {
+	color: #0076bd;
 }
- .blue .postcard__bar {
-	 background-color: #0076bd;
+
+.blue .postcard__bar {
+	background-color: #0076bd;
 }
- .blue::before {
-	 background-image: linear-gradient(-30deg, rgba(0, 118, 189, 0.1), transparent 50%);
+
+.blue::before {
+	background-image: linear-gradient(-30deg, rgba(0, 118, 189, 0.1), transparent 50%);
 }
- .blue:nth-child(2n)::before {
-	 background-image: linear-gradient(30deg, rgba(0, 118, 189, 0.1), transparent 50%);
+
+.blue:nth-child(2n)::before {
+	background-image: linear-gradient(30deg, rgba(0, 118, 189, 0.1), transparent 50%);
 }
- .postcard__tagbox .red.play:hover {
-	 background: #bd150b;
+
+.postcard__tagbox .red.play:hover {
+	background: #bd150b;
 }
- .red .postcard__title:hover {
-	 color: #bd150b;
+
+.red .postcard__title:hover {
+	color: #bd150b;
 }
- .red .postcard__bar {
-	 background-color: #bd150b;
+
+.red .postcard__bar {
+	background-color: #bd150b;
 }
- .red::before {
-	 background-image: linear-gradient(-30deg, rgba(189, 21, 11, 0.1), transparent 50%);
+
+.red::before {
+	background-image: linear-gradient(-30deg, rgba(189, 21, 11, 0.1), transparent 50%);
 }
- .red:nth-child(2n)::before {
-	 background-image: linear-gradient(30deg, rgba(189, 21, 11, 0.1), transparent 50%);
+
+.red:nth-child(2n)::before {
+	background-image: linear-gradient(30deg, rgba(189, 21, 11, 0.1), transparent 50%);
 }
- .postcard__tagbox .yellow.play:hover {
-	 background: #bdbb49;
-	 color: black;
+
+.postcard__tagbox .yellow.play:hover {
+	background: #bdbb49;
+	color: black;
 }
- .yellow .postcard__title:hover {
-	 color: #bdbb49;
+
+.yellow .postcard__title:hover {
+	color: #bdbb49;
 }
- .yellow .postcard__bar {
-	 background-color: #bdbb49;
+
+.yellow .postcard__bar {
+	background-color: #bdbb49;
 }
- .yellow::before {
-	 background-image: linear-gradient(-30deg, rgba(189, 187, 73, 0.1), transparent 50%);
+
+.yellow::before {
+	background-image: linear-gradient(-30deg, rgba(189, 187, 73, 0.1), transparent 50%);
 }
- .yellow:nth-child(2n)::before {
-	 background-image: linear-gradient(30deg, rgba(189, 187, 73, 0.1), transparent 50%);
+
+.yellow:nth-child(2n)::before {
+	background-image: linear-gradient(30deg, rgba(189, 187, 73, 0.1), transparent 50%);
 }
- @media screen and (min-width: 769px) {
-	 .green::before {
-		 background-image: linear-gradient(-80deg, rgba(121, 221, 9, 0.1), transparent 50%);
+
+@media screen and (min-width: 769px) {
+	.green::before {
+		background-image: linear-gradient(-80deg, rgba(121, 221, 9, 0.1), transparent 50%);
 	}
-	 .green:nth-child(2n)::before {
-		 background-image: linear-gradient(80deg, rgba(121, 221, 9, 0.1), transparent 50%);
+
+	.green:nth-child(2n)::before {
+		background-image: linear-gradient(80deg, rgba(121, 221, 9, 0.1), transparent 50%);
 	}
-	 .blue::before {
-		 background-image: linear-gradient(-80deg, rgba(0, 118, 189, 0.1), transparent 50%);
+
+	.blue::before {
+		background-image: linear-gradient(-80deg, rgba(0, 118, 189, 0.1), transparent 50%);
 	}
-	 .blue:nth-child(2n)::before {
-		 background-image: linear-gradient(80deg, rgba(0, 118, 189, 0.1), transparent 50%);
+
+	.blue:nth-child(2n)::before {
+		background-image: linear-gradient(80deg, rgba(0, 118, 189, 0.1), transparent 50%);
 	}
-	 .red::before {
-		 background-image: linear-gradient(-80deg, rgba(189, 21, 11, 0.1), transparent 50%);
+
+	.red::before {
+		background-image: linear-gradient(-80deg, rgba(189, 21, 11, 0.1), transparent 50%);
 	}
-	 .red:nth-child(2n)::before {
-		 background-image: linear-gradient(80deg, rgba(189, 21, 11, 0.1), transparent 50%);
+
+	.red:nth-child(2n)::before {
+		background-image: linear-gradient(80deg, rgba(189, 21, 11, 0.1), transparent 50%);
 	}
-	 .yellow::before {
-		 background-image: linear-gradient(-80deg, rgba(189, 187, 73, 0.1), transparent 50%);
+
+	.yellow::before {
+		background-image: linear-gradient(-80deg, rgba(189, 187, 73, 0.1), transparent 50%);
 	}
-	 .yellow:nth-child(2n)::before {
-		 background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50%);
+
+	.yellow:nth-child(2n)::before {
+		background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50%);
 	}
 }
- .modal {
-	 display: none;
+
+.modal {
+	display: none;
 	/* Hidden by default */
-	 position: fixed;
+	position: fixed;
 	/* Stay in place */
-	 z-index: 1000;
+	z-index: 1000;
 	/* Sit on top */
-	 left: 0;
-	 top: 0;
-	 background-color: rgba(0, 0, 0, 0.4);
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.4);
 	/* Black w/ opacity */
 }
- .modal-content {
-	 background-color: #000;
+
+.modal-content {
+	background-color: #000;
 	/* Dark background for dark mode */
-	 padding: 20px;
-	 border: 1px solid #333;
-	 width: 90%;
+	padding: 20px;
+	border: 1px solid #333;
+	width: 90%;
 	/* Modal width */
-	 height: 90%;
+	height: 90%;
 	/* Modal height */
-	 align-items: center;
+	align-items: center;
 	/* Center children vertically */
-	 position: absolute;
-	 top: 5%;
+	position: absolute;
+	top: 5%;
 	/* Position from the top */
-	 left: 50%;
+	left: 50%;
 	/* Centering the modal */
-	 transform: translateX(-50%);
+	transform: translateX(-50%);
 	/* Centering the modal */
-	 border-radius: 10px;
+	border-radius: 10px;
 	/* Optional: for rounded corners */
-	 background-image: linear-gradient(0deg, #000770, transparent 30%);
-	 overflow-y: auto;
+	background-image: linear-gradient(0deg, #000770, transparent 30%);
+	overflow-y: auto;
 	/* Adds vertical scrollbar if content overflows */
-	 max-height: none;
+	max-height: none;
 }
- .carousel-container {
-	 width: 100%;
+
+.carousel-container {
+	width: 100%;
 	/* Container takes the full width of its parent */
-	 display: flex;
+	display: flex;
 	/* Use flexbox to center the image */
-	 justify-content: center;
+	justify-content: center;
 	/* Center horizontally */
-	 align-items: center;
+	align-items: center;
 	/* Center vertically */
-	 max-height: 80vh;
+	max-height: 80vh;
 	/* Adjust max height as needed */
 }
- .carousel-arrow {
-	 cursor: pointer;
-	 position: absolute;
-	 top: 50%;
-	 transform: translateY(-50%);
-	 font-size: 30px;
+
+.carousel-arrow {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 30px;
 	/* Smaller size for the icon */
-	 color: white;
-	 background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
 	/* Slightly darker background for visibility */
-	 padding: 20px;
+	padding: 20px;
 	/* More padding for a round shape */
-	 user-select: none;
-	 border-radius: 50%;
+	user-select: none;
+	border-radius: 50%;
 	/* Full round shape */
-	 height: 40px;
+	height: 40px;
 	/* Fixed height for the buttons */
-	 width: 40px;
+	width: 40px;
 	/* Fixed width for the buttons */
-	 display: flex;
-	 align-items: center;
-	 justify-content: center;
-	 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 	/* Optional: add shadow for depth */
 }
- .carousel-arrow.left, .carousel-arrow.right {
+
+.carousel-arrow.left,
+.carousel-arrow.right {
 	/* ... other styles ... */
-	 top: 50%;
+	top: 50%;
 	/* Adjust to place it vertically in the middle */
-	 transform: translateY(-50%);
+	transform: translateY(-50%);
 	/* Align the button in the middle vertically */
 }
- .carousel-arrow.left {
-	 left: 20px;
+
+.carousel-arrow.left {
+	left: 20px;
 	/* Adjust distance from the left side */
 }
- .carousel-arrow.right {
-	 right: 20px;
+
+.carousel-arrow.right {
+	right: 20px;
 	/* Adjust distance from the right side */
 }
+
 /* Adjust the icon size within the button if needed */
- .carousel-arrow:before {
-	 font-size: 20px;
+.carousel-arrow:before {
+	font-size: 20px;
 	/* Smaller icon size */
 }
+
 /* Optional: Transition for hover effect */
- .carousel-arrow:hover {
-	 background-color: rgba(0, 0, 0, 0.8);
+.carousel-arrow:hover {
+	background-color: rgba(0, 0, 0, 0.8);
 	/* Darken background on hover */
-	 transition: background-color 0.3s ease;
+	transition: background-color 0.3s ease;
 }
- .carousel {
-	 position: relative;
-	 width: 100%;
-	 text-align: center;
+
+.carousel {
+	position: relative;
+	width: 100%;
+	text-align: center;
 }
- .carousel-inner {
-	 position: relative;
-	 max-width: 90%;
-	 overflow: hidden;
+
+.carousel-inner {
+	position: relative;
+	max-width: 90%;
+	overflow: hidden;
 	/* Prevents images from overflowing */
-	 text-align: center;
+	text-align: center;
 }
- .carousel-image {
-	 max-height: 80vh;
+
+.carousel-image {
+	max-height: 80vh;
 	/* Adjust to ensure it fits within the viewport */
-	 max-width: 100%;
+	max-width: 100%;
 	/* Ensure the image is not wider than its container */
-	 object-fit: contain;
+	object-fit: contain;
 	/* Scale the image to fit while preserving its aspect ratio */
-	 height: auto;
+	height: auto;
 	/* Default height */
-	 width: auto;
+	width: auto;
 	/* Default width */
 }
- .carousel-control.left {
-	 left: 0;
+
+.carousel-control.left {
+	left: 0;
 }
- .carousel-control.right {
-	 right: 0;
+
+.carousel-control.right {
+	right: 0;
 }
- .carousel-control:hover {
-	 background-color: rgba(0, 0, 0, 0.8);
+
+.carousel-control:hover {
+	background-color: rgba(0, 0, 0, 0.8);
 }
- .carousel-control.left {
-	 left: 10px;
+
+.carousel-control.left {
+	left: 10px;
 	/* Distance from the left side of the container */
 }
- .carousel-control.right {
-	 right: 10px;
+
+.carousel-control.right {
+	right: 10px;
 	/* Distance from the right side of the container */
 }
- .carousel-control:hover {
-	 background-color: rgba(0, 0, 0, 0.8);
+
+.carousel-control:hover {
+	background-color: rgba(0, 0, 0, 0.8);
 	/* Darken background on hover */
 }
- .close {
-	 position: absolute;
-	 top: 10px;
+
+.close {
+	position: absolute;
+	top: 10px;
 	/* Adjust as needed */
-	 right: 20px;
+	right: 20px;
 	/* Adjust as needed */
-	 color: white;
+	color: white;
 	/* Or any other color */
-	 font-size: 30px;
+	font-size: 30px;
 	/* Adjust as needed */
-	 font-weight: bold;
-	 cursor: pointer;
+	font-weight: bold;
+	cursor: pointer;
 }
- .close:focus {
-	 color: white;
-	 text-decoration: none;
-	 cursor: pointer;
+
+.close:focus {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
 }
- hr {
-	 display: block;
-	 height: 1px;
-	 border: 0;
-	 border-top: 1px solid #ccc;
-	 margin: 1em 0;
-	 padding: 0;
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
- .aboutMe {
-	 text-align: center;
+
+.aboutMe {
+	text-align: center;
 }
- .hide {
-	 display: none !important;
+
+.hide {
+	display: none !important;
 }
- .postcard__tagbox {
-	 display: flex;
-	 flex-flow: row wrap;
-	 font-size: 14px;
-	 margin: 20px 0 0 0;
-	 padding: 0;
-	 justify-content: center;
-	 color: #fff;
+
+.postcard__tagbox {
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 14px;
+	margin: 20px 0 0 0;
+	padding: 0;
+	justify-content: center;
+	color: #fff;
 }
- .postcard__tagbox .tag__item {
-	 display: inline-block;
-	 background: rgba(83, 83, 83, 0.4);
-	 border-radius: 3px;
-	 padding: 2.5px 10px;
-	 margin: 0 5px 5px 0;
-	 cursor: default;
-	 user-select: none;
-	 transition: background-color 0.3s;
-	 color: #fff;
+
+.postcard__tagbox .tag__item {
+	display: inline-block;
+	background: rgba(83, 83, 83, 0.4);
+	border-radius: 3px;
+	padding: 2.5px 10px;
+	margin: 0 5px 5px 0;
+	cursor: default;
+	user-select: none;
+	transition: background-color 0.3s;
+	color: #fff;
 }
- .postcard__tagbox .tag__item:hover {
-	 background: rgba(83, 83, 83, 0.8);
+
+.postcard__tagbox .tag__item:hover {
+	background: rgba(83, 83, 83, 0.8);
 }
- 
