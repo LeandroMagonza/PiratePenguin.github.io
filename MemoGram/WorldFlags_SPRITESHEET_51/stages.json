@@ -1,0 +1,99 @@
+{
+  "items": [
+    {
+      "stageID": 0,
+      "title": "Africa",
+      "basePoints": 0,
+      "color": "008000",
+      "stickers": [28,32,40,44],
+      "packOdds" : {
+        "0":50,
+        "1":40,
+        "2":7,
+        "3":2,
+        "4":1
+      },
+      "packCost":100,
+      "stickerSet":"WorldFlags_SPRITESHEET_51"
+    },
+    {
+      "stageID": 1,
+      "title": "North America",
+      "basePoints": 1,
+      "color": "00FFFF",
+      "stickers": [15,21,23,35,45,38],
+      "packOdds" : {
+        "0":0,
+        "1":50,
+        "2":40,
+        "3":7,
+        "4":3
+      },
+      "packCost":200,
+      "stickerSet":"WorldFlags_SPRITESHEET_51"
+    },
+    {
+      "stageID": 2,
+      "title": "South America",
+      "basePoints": 2,
+      "color": "FFFF00",
+      "stickers": [5,22,31,33,36,37,41,42,46],
+      "packOdds" : {
+        "0":0,
+        "1":0,
+        "2":50,
+        "3":40,
+        "4":10
+      },
+      "packCost":300,
+      "stickerSet":"WorldFlags_SPRITESHEET_51"
+    },
+    {
+      "stageID": 3,
+      "title": "Asia & Oceania",
+      "basePoints": 3,
+      "color": "FF00FF",
+      "stickers": [2,4,8,13,14,19,20,24,29,16,17,9,39],
+      "packOdds" : {
+        "0":0,
+        "1":0,
+        "2":0,
+        "3":50,
+        "4":50
+      },
+      "packCost":400,
+      "stickerSet":"WorldFlags_SPRITESHEET_51"
+    },
+    {
+      "stageID": 4,
+      "title": "Europe",
+      "basePoints": 3,
+      "color": "FF00FF",
+      "stickers": [1,3,6,7,10,11,12,18,25,26,27,30,34,43,47,48,49,50,51],
+      "packOdds" : {
+        "0":0,
+        "1":0,
+        "2":0,
+        "3":50,
+        "4":50
+      },
+      "packCost":500,
+      "stickerSet":"WorldFlags_SPRITESHEET_51"
+    }
+  ],
+  "stickerLevels":{
+    "1":{"amountRequired":5},
+    "2":{"amountRequired":15},
+    "3":{"amountRequired":35},
+    "4":{"amountRequired":75},
+    "5":{"amountRequired":150}
+  },
+  "packs":{
+    "rareChance":0.009,
+    "rareAmountOfStickers": 35,
+    "legendaryChance":0.001,
+    "legendaryAmountOfStickers": 150,
+    "stickersPerPack":2
+  }
+
+}
