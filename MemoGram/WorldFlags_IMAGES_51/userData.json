@@ -127,28 +127,28 @@
   "readStickerDuplicates": [
     {
       "key": {
-        "imageSet":"WorldFlags_SPRITESHEET_51",
+        "imageSet":"WorldFlags_IMAGES_51",
         "stickerID": 28
       },
       "value": 1
     },
     {
       "key": {
-        "imageSet":"WorldFlags_SPRITESHEET_51",
+        "imageSet":"WorldFlags_IMAGES_51",
         "stickerID": 32
       },
       "value": 1
     },
     {
       "key": {
-        "imageSet":"WorldFlags_SPRITESHEET_51",
+        "imageSet":"WorldFlags_IMAGES_51",
         "stickerID": 40
       },
       "value": 1
     },
     {
       "key": {
-        "imageSet":"WorldFlags_SPRITESHEET_51",
+        "imageSet":"WorldFlags_IMAGES_51",
         "stickerID": 44
       },
       "value": 1
