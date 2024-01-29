@@ -124,7 +124,7 @@
       "matches": []
     }
   ],
-  "imageDuplicates": [
+  "readStickerDuplicates": [
       {
         "key": {
           "stickerSet": "Pokemons_SPRITESHEET_151",

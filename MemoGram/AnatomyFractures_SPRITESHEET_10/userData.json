@@ -52,7 +52,7 @@
       "matches": []
     }
   ],
-  "imageDuplicates": [
+  "readStickerDuplicates": [
     {
       "Key": {
         "StickerSet": "AnatomyFractures_SPRITESHEET_10",
