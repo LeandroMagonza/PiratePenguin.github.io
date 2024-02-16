@@ -13,7 +13,7 @@
         "3":2,
         "4":1
       },
-      "packCost":100,
+      "packCost":50,
       "stickerSet":"WorldFlags_IMAGES_51"
     },
     {
@@ -29,7 +29,7 @@
         "3":7,
         "4":3
       },
-      "packCost":200,
+      "packCost":150,
       "stickerSet":"WorldFlags_IMAGES_51"
     },
     {
@@ -61,7 +61,7 @@
         "3":50,
         "4":50
       },
-      "packCost":400,
+      "packCost":500,
       "stickerSet":"WorldFlags_IMAGES_51"
     },
     {
@@ -77,7 +77,7 @@
         "3":50,
         "4":50
       },
-      "packCost":500,
+      "packCost":800,
       "stickerSet":"WorldFlags_IMAGES_51"
     }
   ],
