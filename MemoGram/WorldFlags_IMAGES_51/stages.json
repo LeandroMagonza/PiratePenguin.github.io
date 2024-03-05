@@ -94,6 +94,8 @@
     "legendaryChance":0.001,
     "legendaryAmountOfStickers": 150,
     "stickersPerPack":5
+  },
+  "config":{
+    "backgroundColor": "93D9F5"
   }
-
 }
