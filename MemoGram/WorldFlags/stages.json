@@ -14,7 +14,7 @@
         "4":1
       },
       "packCost":50,
-      "stickerSet":"WorldFlags_IMAGES_51"
+      "stickerSet":"WorldFlags"
     },
     {
       "stageID": 1,
@@ -30,7 +30,7 @@
         "4":3
       },
       "packCost":150,
-      "stickerSet":"WorldFlags_IMAGES_51"
+      "stickerSet":"WorldFlags"
     },
     {
       "stageID": 2,
@@ -46,7 +46,7 @@
         "4":10
       },
       "packCost":300,
-      "stickerSet":"WorldFlags_IMAGES_51"
+      "stickerSet":"WorldFlags"
     },
     {
       "stageID": 3,
@@ -62,7 +62,7 @@
         "4":50
       },
       "packCost":500,
-      "stickerSet":"WorldFlags_IMAGES_51"
+      "stickerSet":"WorldFlags"
     },
     {
       "stageID": 4,
@@ -78,7 +78,7 @@
         "4":50
       },
       "packCost":800,
-      "stickerSet":"WorldFlags_IMAGES_51"
+      "stickerSet":"WorldFlags"
     }
   ],
   "stickerLevels":{
