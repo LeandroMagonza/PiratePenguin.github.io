@@ -24,14 +24,14 @@ const games = [
     playLink: "https://leandromagonza.github.io/Quantum_Test_3D/",
     codeLink: "https://github.com/LeandroMagonza/Quantum_Test_3D",
     images: [
-      "Quantum Test 3D.png",
-      "Quantum Test 3D1.png",
-      "Quantum Test 3D2.png",
-      "Quantum Test 3D3.png",
-      "Quantum Test 3D4.png",
-      "Quantum Test 3D5.png",
-      "Quantum Test 3D6.png",
-      "Quantum Test 3D7.png"
+      "Quantum_Test_3D.png",
+      "Quantum_Test_3D1.png",
+      "Quantum_Test_3D2.png",
+      "Quantum_Test_3D3.png",
+      "Quantum_Test_3D4.png",
+      "Quantum_Test_3D5.png",
+      "Quantum_Test_3D6.png",
+      "Quantum_Test_3D7.png"
     ]
   },
   {
