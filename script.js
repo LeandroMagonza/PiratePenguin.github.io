@@ -17,6 +17,24 @@ const games = [
     trailerLink: "https://www.youtube.com/watch?v=dsdNM6c5QJc"
   },
   {
+    id: "quantumTest3D",
+    name: "Quantum Test 3D",
+    description:
+      "Small Photon Quantum test to try the technology. I'ts a cooperative demo that supports multiple players in real time with synchronized actions and animations.",
+    playLink: "https://leandromagonza.github.io/Quantum_Test_3D/",
+    codeLink: "https://github.com/LeandroMagonza/Quantum_Test_3D",
+    images: [
+      "Quantum Test 3D.png",
+      "Quantum Test 3D1.png",
+      "Quantum Test 3D2.png",
+      "Quantum Test 3D3.png",
+      "Quantum Test 3D4.png",
+      "Quantum Test 3D5.png",
+      "Quantum Test 3D6.png",
+      "Quantum Test 3D7.png"
+    ]
+  },
+  {
     id: "memograms",
     name: "MemoGrams",
     description:
