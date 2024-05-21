@@ -96,7 +96,7 @@
     "stickersPerPack":5
   },
   "config":{
-    "version":1,
+    "version":2,
     "backgroundColor": "93D9F5"
   }
 }
