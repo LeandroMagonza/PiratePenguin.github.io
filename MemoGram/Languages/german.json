@@ -44,5 +44,8 @@
     "UpgradeBlockMistakeDescription": "Bei einem Fehler füge ein <color={textHighlightColor}>Schneiden lv. {upgradeLevel}</color> dem Sticker hinzu.",
     "UpgradeDeathDefyDescription": "Täusche den Tod bei einem KLEINEN Fehler einmal pro Level.",
     "UpgradeStickerMasterDescription": "Sticker im Spiel kommen mit Boni, je nach Sticker-Level.",
-    "UpgradeConsumableSlotDescription": "Erlaubt es dir, <color={textHighlightColor}>{upgradeLevel} zusätzliche Verbrauchsgüter</color> ins Spiel zu bringen und <color={textHighlightColor}>{upgradeLevel|*3} zusätzliche Verbrauchsgüter</color> in jeder Fabrik zu speichern."
+    "UpgradeConsumableSlotDescription": "Erlaubt es dir, <color={textHighlightColor}>{upgradeLevel} zusätzliche Verbrauchsgüter</color> ins Spiel zu bringen und <color={textHighlightColor}>{upgradeLevel|*3} zusätzliche Verbrauchsgüter</color> in jeder Fabrik zu speichern.",
+    "FactoryNotificationTitle": "Die {consumableName}-Fabrik ist VOLL",
+    "FactoryNotificationBody": "Kommen Sie, um Ihre {consumableName}s abzuholen!",
+    "SecondsAbb": "s"
 }

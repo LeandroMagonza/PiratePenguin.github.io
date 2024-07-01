@@ -44,5 +44,8 @@
     "UpgradeBlockMistakeDescription": "في حالة الخطأ، أضف <color={textHighlightColor}>قطع lv. {upgradeLevel}</color> إلى الملصق.",
     "UpgradeDeathDefyDescription": "خدع الموت في خطأ صغير مرة واحدة لكل مستوى.",
     "UpgradeStickerMasterDescription": "تأتي الملصقات في المباراة مع مكافآت، لكل مستوى ملصق.",
-    "UpgradeConsumableSlotDescription": "يسمح لك بإحضار <color={textHighlightColor}>{upgradeLevel} مواد مستهلكة إضافية</color> إلى المباراة وتخزين <color={textHighlightColor}>{upgradeLevel|*3} مواد مستهلكة إضافية</color> في كل مصنع."
+    "UpgradeConsumableSlotDescription": "يسمح لك بإحضار <color={textHighlightColor}>{upgradeLevel} مواد مستهلكة إضافية</color> إلى المباراة وتخزين <color={textHighlightColor}>{upgradeLevel|*3} مواد مستهلكة إضافية</color> في كل مصنع.",
+    "FactoryNotificationTitle": "مصنع {consumableName} ممتلئ",
+    "FactoryNotificationBody": "تعال لتستلم {consumableName} الخاص بك!",
+    "SecondsAbb": "ث"
 }

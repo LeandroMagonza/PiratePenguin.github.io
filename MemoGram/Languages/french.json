@@ -44,5 +44,8 @@
     "UpgradeBlockMistakeDescription": "En cas d'erreur, ajoutez un <color={textHighlightColor}>Coupe lv. {upgradeLevel}</color> à l'autocollant.",
     "UpgradeDeathDefyDescription": "Trompez la mort en cas de PETITE erreur une fois par niveau",
     "UpgradeStickerMasterDescription": "Les autocollants du jeu viennent avec des bonus, par niveau d'autocollant",
-    "UpgradeConsumableSlotDescription": "Vous permet d'apporter <color={textHighlightColor}>{upgradeLevel} consommables supplémentaires</color> au jeu, et de stocker <color={textHighlightColor}>{upgradeLevel|*3} consommables supplémentaires</color> dans chaque usine."
+    "UpgradeConsumableSlotDescription": "Vous permet d'apporter <color={textHighlightColor}>{upgradeLevel} consommables supplémentaires</color> au jeu, et de stocker <color={textHighlightColor}>{upgradeLevel|*3} consommables supplémentaires</color> dans chaque usine.",
+    "FactoryNotificationTitle": "La fabrique de {consumableName} est PLEINE",
+    "FactoryNotificationBody": "Venez récupérer vos {consumableName}s !",
+    "SecondsAbb": "s"
 }

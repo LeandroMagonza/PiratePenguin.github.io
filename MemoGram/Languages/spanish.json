@@ -44,5 +44,8 @@
     "UpgradeBlockMistakeDescription": "En caso de error, añade un <color={textHighlightColor}>Corte lv. {upgradeLevel}</color> a la pegatina.",
     "UpgradeDeathDefyDescription": "Engaña a la muerte en un PEQUEÑO error una vez por nivel",
     "UpgradeStickerMasterDescription": "Las pegatinas en el juego vienen con bonificaciones, por nivel de pegatina",
-    "UpgradeConsumableSlotDescription": "Te permite llevar <color={textHighlightColor}>{upgradeLevel} consumibles adicionales</color> al juego y almacenar <color={textHighlightColor}>{upgradeLevel|*3} consumibles adicionales</color> en cada fábrica."
+    "UpgradeConsumableSlotDescription": "Te permite llevar <color={textHighlightColor}>{upgradeLevel} consumibles adicionales</color> al juego y almacenar <color={textHighlightColor}>{upgradeLevel|*3} consumibles adicionales</color> en cada fábrica.",
+    "FactoryNotificationTitle": "¡La fábrica de {consumableName} está LLENA!",
+    "FactoryNotificationBody": "¡Ven a reclamar tus {consumableName}s!",
+    "SecondsAbb": "s"
 }

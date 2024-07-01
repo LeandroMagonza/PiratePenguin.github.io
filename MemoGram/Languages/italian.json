@@ -44,5 +44,8 @@
     "UpgradeBlockMistakeDescription": "In caso di errore, aggiungi un <color={textHighlightColor}>Taglio lv. {upgradeLevel}</color> all'adesivo.",
     "UpgradeDeathDefyDescription": "Inganna la morte in caso di PICCOLO errore una volta per livello.",
     "UpgradeStickerMasterDescription": "Gli adesivi nella partita vengono con bonus, per livello di adesivo.",
-    "UpgradeConsumableSlotDescription": "Ti permette di portare <color={textHighlightColor}>{upgradeLevel} consumabili extra</color> alla partita e conservare <color={textHighlightColor}>{upgradeLevel|*3} consumabili extra</color> in ogni fabbrica."
+    "UpgradeConsumableSlotDescription": "Ti permette di portare <color={textHighlightColor}>{upgradeLevel} consumabili extra</color> alla partita e conservare <color={textHighlightColor}>{upgradeLevel|*3} consumabili extra</color> in ogni fabbrica.",
+    "FactoryNotificationTitle": "La fabbrica di {consumableName} è PIENA",
+    "FactoryNotificationBody": "Vieni a reclamare i tuoi {consumableName}!",
+    "SecondsAbb": "s"
 }

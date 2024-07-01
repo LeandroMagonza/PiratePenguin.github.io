@@ -44,5 +44,9 @@
     "UpgradeBlockMistakeDescription": "在错误时，添加一个<color={textHighlightColor}>切割 lv. {upgradeLevel}</color>到贴纸。",
     "UpgradeDeathDefyDescription": "在一个小错误时逃避死亡，每级一次。",
     "UpgradeStickerMasterDescription": "比赛中的贴纸带有加成，按贴纸等级。",
-    "UpgradeConsumableSlotDescription": "允许你带<color={textHighlightColor}>{upgradeLevel}个额外消耗品</color>到比赛，并在每个工厂存储<color={textHighlightColor}>{upgradeLevel|*3}个额外消耗品</color>。"
+    "UpgradeConsumableSlotDescription": "允许你带<color={textHighlightColor}>{upgradeLevel}个额外消耗品</color>到比赛，并在每个工厂存储<color={textHighlightColor}>{upgradeLevel|*3}个额外消耗品</color>。",
+    "FactoryNotificationTitle": "{consumableName}工厂已满",
+    "FactoryNotificationBody": "快来领取你的{consumableName}!",
+    "SecondsAbb": "秒"
+
 }
