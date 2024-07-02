@@ -114,7 +114,7 @@ function assignIPsToRouters() {
     exercise.routers.forEach((router, index) => {
         router.initialIP = intToIP(currentIP);
         router.finalIP = intToIP(currentIP + router.rangeSize - 1);
-        router.lastUsedIP = intToIP(currentIP + router.devices + 2); // +1 para el router, +1 para empezar desde la siguiente IP
+        router.lastUsedIP = intToIP(currentIP + router.devices + 1); // +1 para el router, +1 para empezar desde la siguiente IP
         currentIP += router.rangeSize;
     });
 }
