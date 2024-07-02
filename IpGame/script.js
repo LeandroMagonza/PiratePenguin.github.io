@@ -144,7 +144,11 @@ function displayExercise() {
     exercise.routers.forEach((router, index) => {
         const row = tbody.insertRow();
         row.innerHTML = `
-            <td>Router ${index + 1} (${router.devices})</td>
+            <td class="router-info">
+                <span class="drag-handle"></span>
+                <span class="router-name">Subnet ${index + 1}</span>
+                <span class="device-count">(${router.devices})</span>
+            </td>
             <td>
                 <input type="text" class="ip-input" data-router="${index}" data-field="initialIP">
                 <span class="debug-info">${router.initialIP}</span>
@@ -164,16 +168,16 @@ function displayExercise() {
         `;
     });
 
-    hideDebugInfo(); // Asegura que la información de depuración esté oculta al mostrar el ejercicio
     makeTableRowsDraggable();
-    document.getElementById('result').textContent = "";
 }
 
 function makeTableRowsDraggable() {
     const tbody = document.getElementById('routerTableBody');
     new Sortable(tbody, {
         animation: 150,
+        handle: '.drag-handle', // Usa el nuevo ícono como handle
         onEnd: function(evt) {
+            // Actualizar el orden de los routers en el objeto exercise
             const newOrder = Array.from(tbody.rows).map(row => parseInt(row.cells[0].textContent.match(/\d+/)[0]) - 1);
             exercise.routers = newOrder.map(index => exercise.routers[index]);
         }
@@ -187,9 +191,13 @@ function checkExercise() {
     inputs.forEach(input => {
         const routerIndex = parseInt(input.dataset.router);
         const field = input.dataset.field;
-        exercise.routers[routerIndex].userInput[field] = input.value;
+        const userValue = input.value.trim();
+        
+        // Obtener el valor correcto del span de depuración en la misma celda
+        const debugSpan = input.nextElementSibling;
+        const correctValue = debugSpan.textContent.trim();
 
-        const isCorrect = verifyInput(routerIndex, field, input.value);
+        const isCorrect = userValue === correctValue;
 
         input.classList.toggle('incorrect', !isCorrect);
         if (!isCorrect) allCorrect = false;

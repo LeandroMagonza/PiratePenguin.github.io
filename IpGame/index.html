@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1>Juego de Asignación de IPs</h1>
+    <h1>Asignación de IPs</h1>
     <div id="controls">
         <select id="difficulty">
             <option value="1">Dificultad 1</option>
@@ -28,11 +28,14 @@
     <div id="exercise">
         <p>IP inicial: <span id="initialIP"></span></p>
         <p>Máscara inicial: <span id="initialMask"></span></p>
-        <p>Se asume que la IP del Router es la siguiente a la de red</p>
+        <ul>
+            <li>Las filas son reordenables, arrastrandolas.</li>
+            <li>Se asume que la IP del Router es la siguiente a la de red.</li>
+        </ul>
         <table id="routerTable">
             <thead>
                 <tr>
-                    <th>Router (Dispositivos)</th>
+                    <th>Subnet (Dispositivos)</th>
                     <th>IP de Red</th>
                     <th>IP de Broadcast</th>
                     <th>Tamaño del rango</th>

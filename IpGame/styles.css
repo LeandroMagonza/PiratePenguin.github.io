@@ -98,3 +98,59 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.drag-handle {
+    cursor: move;
+    display: inline-block;
+    margin-right: 10px;
+    color: #888;
+}
+
+.drag-handle::before {
+    content: '☰';
+}
+
+.router-info {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 200px; /* Ajusta este valor según tus necesidades */
+}
+
+.drag-handle {
+    flex-shrink: 0;
+    margin-right: 5px;
+}
+
+.router-name {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.device-count {
+    flex-shrink: 0;
+    margin-left: 5px;
+    font-size: 0.8em;
+}
+
+@media (max-width: 600px) {
+    .router-info {
+        font-size: 14px;
+    }
+    
+    .device-count {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 400px) {
+    .router-info {
+        font-size: 12px;
+    }
+    
+    .device-count {
+        font-size: 0.6em;
+    }
+}
