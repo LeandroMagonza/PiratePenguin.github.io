@@ -40,13 +40,22 @@ function generateExercise() {
         let totalDevices = 0;
         let usedDeviceCounts = new Set();
 
+      
+        
         for (let i = 0; i < difficulty; i++) {
             let devices;
+            let attempts = 0;
             do {
-                devices = Math.floor(Math.random() * (50 * difficulty)) + 10;
+                const baseExponent = randomRange(2, difficulty + 3);
+                devices = Math.floor(2 ** baseExponent * (Math.random() + 1));
+                attempts++;
+                if (attempts > 50) break; // Evitar bucle infinito
             } while (usedDeviceCounts.has(devices));
+        
+            if (attempts > 50) continue; // Si no encontramos un valor único, saltamos esta iteración
+        
             usedDeviceCounts.add(devices);
-
+        
             const rangeSize = getNextPowerOfTwo(devices + 3);
             if (totalDevices + rangeSize > maxDevices) break;
             
@@ -220,6 +229,10 @@ function verifyInput(routerIndex, field, value) {
         default:
             return false;
     }
+}
+
+function randomRange(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 generateExercise();
