@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignación de IPs</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+</head>
+
+<body>
+    <h1>Juego de Asignación de IPs</h1>
+    <div id="controls">
+        <select id="difficulty">
+            <option value="1">Dificultad 1</option>
+            <option value="2">Dificultad 2</option>
+            <option value="3">Dificultad 3</option>
+            <option value="4">Dificultad 4</option>
+            <option value="5">Dificultad 5</option>
+            <option value="6">Dificultad 6</option>
+            <option value="7">Dificultad 7</option>
+            <option value="8">Dificultad 8</option>
+            <option value="9">Dificultad 9</option>
+        </select>
+        <button id="generateBtn">Generar Ejercicio</button>
+    </div>
+    <div id="exercise">
+        <p>IP inicial: <span id="initialIP"></span></p>
+        <p>Máscara inicial: <span id="initialMask"></span></p>
+        <p>Se asume que la IP del Router es la siguiente a la de red</p>
+        <table id="routerTable">
+            <thead>
+                <tr>
+                    <th>Router (Dispositivos)</th>
+                    <th>IP de Red</th>
+                    <th>IP de Broadcast</th>
+                    <th>Tamaño del rango</th>
+                    <th>Última IP de dispositivo</th>
+                </tr>
+            </thead>
+            <tbody id="routerTableBody"></tbody>
+        </table>
+    </div>
+    <button id="checkBtn">Verificar</button>
+    <label class="switch">
+        <input type="checkbox" id="showAnswerToggle">
+        <span class="slider round"></span>
+    </label>
+    <span>Mostrar respuesta</span>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
