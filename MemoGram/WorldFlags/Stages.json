@@ -97,6 +97,8 @@
   },
   "config":{
     "version":2,
-    "backgroundColor": "93D9F5"
+    "backgroundColor": "93D9F5",
+    "baseExperiencePoints": 200,
+    "experienceIncreasePerLevel": 1.5
   }
 }

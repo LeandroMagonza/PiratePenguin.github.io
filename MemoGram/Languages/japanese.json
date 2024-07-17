@@ -6,11 +6,19 @@
     "HoursAbb": "時間",
     "MinutesAbb": "分",
     "ItemClueName": "手がかり",
-    "ItemRemoveName": "削除",
+    "ItemRemoveName": "消しゴム",
     "ItemBombName": "爆弾",
-    "ItemCutName": "カット",
+    "ItemCutName": "はさみ",
     "ItemPeekName": "のぞき見",
-    "ItemHighlightName": "ハイライト",
+    "ItemHighlightName": "蛍光ペン",
+    "ItemClueNamePlural": "手がかり",
+    "ItemRemoveNamePlural": "消しゴム",
+    "ItemBombNamePlural": "爆弾",
+    "ItemCutNamePlural": "はさみ",
+    "ItemPeekNamePlural": "のぞき見",
+    "ItemHighlightNamePlural": "蛍光ペン",
+    "Claim": "請求",
+    "Exit": "出口",
     "ItemClueDescription": "現在のステッカーを正しく当ててください。",
     "ItemRemoveDescription": "試合から現在のステッカーを削除します。",
     "ItemBombDescription": "次の推測が小さな間違いであれば、正解としてカウントされます。",
@@ -48,5 +56,4 @@
     "FactoryNotificationTitle": "{consumableName}工場が満杯です",
     "FactoryNotificationBody": "あなたの{consumableName}を受け取りに来てください！",
     "SecondsAbb": "秒"
-
 }

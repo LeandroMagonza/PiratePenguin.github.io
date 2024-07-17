@@ -6,11 +6,19 @@
     "HoursAbb": "小时",
     "MinutesAbb": "分钟",
     "ItemClueName": "线索",
-    "ItemRemoveName": "移除",
+    "ItemRemoveName": "橡皮擦",
     "ItemBombName": "炸弹",
-    "ItemCutName": "切割",
+    "ItemCutName": "剪刀",
     "ItemPeekName": "偷看",
-    "ItemHighlightName": "突出",
+    "ItemHighlightName": "荧光笔",
+    "ItemClueNamePlural": "线索",
+    "ItemRemoveNamePlural": "橡皮擦",
+    "ItemBombNamePlural": "炸弹",
+    "ItemCutNamePlural": "剪刀",
+    "ItemPeekNamePlural": "偷看",
+    "ItemHighlightNamePlural": "荧光笔",
+    "Claim": "领取",
+    "Exit": "退出",
     "ItemClueDescription": "正确猜出当前的贴纸。",
     "ItemRemoveDescription": "从比赛中移除当前的贴纸。",
     "ItemBombDescription": "如果下一个猜测是小错误，将计为正确。",
@@ -48,5 +56,4 @@
     "FactoryNotificationTitle": "{consumableName}工厂已满",
     "FactoryNotificationBody": "快来领取你的{consumableName}!",
     "SecondsAbb": "秒"
-
 }

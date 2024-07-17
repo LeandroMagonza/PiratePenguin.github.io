@@ -6,11 +6,19 @@
     "HoursAbb": "시간",
     "MinutesAbb": "분",
     "ItemClueName": "단서",
-    "ItemRemoveName": "제거",
+    "ItemRemoveName": "지우개",
     "ItemBombName": "폭탄",
-    "ItemCutName": "절단",
+    "ItemCutName": "가위",
     "ItemPeekName": "엿보기",
-    "ItemHighlightName": "강조",
+    "ItemHighlightName": "형광펜",
+    "ItemClueNamePlural": "단서",
+    "ItemRemoveNamePlural": "지우개",
+    "ItemBombNamePlural": "폭탄",
+    "ItemCutNamePlural": "가위",
+    "ItemPeekNamePlural": "엿보기",
+    "ItemHighlightNamePlural": "형광펜",
+    "Claim": "청구",
+    "Exit": "나가기",
     "ItemClueDescription": "현재 스티커를 정확히 맞히세요.",
     "ItemRemoveDescription": "현재 스티커를 경기에서 제거합니다.",
     "ItemBombDescription": "다음 추측이 작은 실수라면, 정답으로 간주됩니다.",
@@ -48,5 +56,4 @@
     "FactoryNotificationTitle": "{consumableName} 공장이 가득 찼습니다",
     "FactoryNotificationBody": "와서 당신의 {consumableName}를 받아가세요!",
     "SecondsAbb": "초"
-
 }
