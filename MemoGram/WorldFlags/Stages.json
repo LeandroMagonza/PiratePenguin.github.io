@@ -96,9 +96,11 @@
     "stickersPerPack":5
   },
   "config":{
-    "version":2,
+    "version":3,
     "backgroundColor": "93D9F5",
     "baseExperiencePoints": 200,
-    "experienceIncreasePerLevel": 1.5
+    "experienceIncreasePerLevel": 1.5,
+    "flatAmountOfStickerAdded":0,
+    "scalingAmountOfStickerAdded":1
   }
 }
