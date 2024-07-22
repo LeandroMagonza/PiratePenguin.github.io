@@ -54,6 +54,6 @@
     "UpgradeStickerMasterDescription": "Stickers on match come with bonuses, per sticker level",
     "UpgradeConsumableSlotDescription": "Allows you to bring <color={textHighlightColor}>{upgradeLevel} extra consumables</color> to the match, and store <color={textHighlightColor}>{upgradeLevel|*3} extra consumables</color> on each factory.",
     "FactoryNotificationTitle": "{consumableName} factory is FULL",
-    "FactoryNotificationBody": "Come to claim your {consumableName}s!",
+    "FactoryNotificationBody": "Come to claim your {consumableName}!",
     "SecondsAbb": "s"
 }

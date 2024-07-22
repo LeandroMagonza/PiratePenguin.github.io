@@ -54,6 +54,6 @@
     "UpgradeStickerMasterDescription": "Las pegatinas en el juego vienen con bonificaciones, por nivel de pegatina",
     "UpgradeConsumableSlotDescription": "Te permite llevar <color={textHighlightColor}>{upgradeLevel} consumibles adicionales</color> al juego y almacenar <color={textHighlightColor}>{upgradeLevel|*3} consumibles adicionales</color> en cada fábrica.",
     "FactoryNotificationTitle": "¡La fábrica de {consumableName} está LLENA!",
-    "FactoryNotificationBody": "¡Ven a reclamar tus {consumableName}s!",
+    "FactoryNotificationBody": "¡Ven a reclamar tus {consumableName}!",
     "SecondsAbb": "s"
 }
