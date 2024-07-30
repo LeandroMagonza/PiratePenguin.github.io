@@ -55,5 +55,8 @@
     "UpgradeConsumableSlotDescription": "Ti permette di portare <color={textHighlightColor}>{upgradeLevel} consumabili extra</color> alla partita e conservare <color={textHighlightColor}>{upgradeLevel|*3} consumabili extra</color> in ogni fabbrica.",
     "FactoryNotificationTitle": "La fabbrica di {consumableName} è PIENA",
     "FactoryNotificationBody": "Vieni a reclamare i tuoi {consumableName}!",
-    "SecondsAbb": "s"
+    "SecondsAbb": "s",
+    "StreakNotificationTitle": "Non perdere la tua serie!",
+    "StreakNotificationDescription": "Gioca una partita per mantenerla :)",
+    "Streak": "Serie"
 }

@@ -55,5 +55,8 @@
     "UpgradeConsumableSlotDescription": "允许你带<color={textHighlightColor}>{upgradeLevel}个额外消耗品</color>到比赛，并在每个工厂存储<color={textHighlightColor}>{upgradeLevel|*3}个额外消耗品</color>。",
     "FactoryNotificationTitle": "{consumableName}工厂已满",
     "FactoryNotificationBody": "快来领取你的{consumableName}!",
-    "SecondsAbb": "秒"
+    "SecondsAbb": "秒",
+    "StreakNotificationTitle": "不要失去你的连胜!",
+    "StreakNotificationDescription": "玩一场比赛来保持它 :)",
+    "Streak": "连胜"
 }

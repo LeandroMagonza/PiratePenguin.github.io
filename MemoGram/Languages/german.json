@@ -55,5 +55,8 @@
     "UpgradeConsumableSlotDescription": "Erlaubt es dir, <color={textHighlightColor}>{upgradeLevel} zusätzliche Verbrauchsgüter</color> ins Spiel zu bringen und <color={textHighlightColor}>{upgradeLevel|*3} zusätzliche Verbrauchsgüter</color> in jeder Fabrik zu speichern.",
     "FactoryNotificationTitle": "Die {consumableName}-Fabrik ist VOLL",
     "FactoryNotificationBody": "Kommen Sie, um Ihre {consumableName} abzuholen!",
-    "SecondsAbb": "s"
+    "SecondsAbb": "s",
+    "StreakNotificationTitle": "Verlieren Sie Ihre Serie nicht!",
+    "StreakNotificationDescription": "Spielen Sie ein Spiel, um sie zu behalten :)",
+    "Streak": "Serie"
 }

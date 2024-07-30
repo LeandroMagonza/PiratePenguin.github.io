@@ -55,5 +55,8 @@
     "UpgradeConsumableSlotDescription": "يسمح لك بإحضار <color={textHighlightColor}>{upgradeLevel} مواد مستهلكة إضافية</color> إلى المباراة وتخزين <color={textHighlightColor}>{upgradeLevel|*3} مواد مستهلكة إضافية</color> في كل مصنع.",
     "FactoryNotificationTitle": "مصنع {consumableName} ممتلئ",
     "FactoryNotificationBody": "تعال لتستلم {consumableName} الخاص بك!",
-    "SecondsAbb": "ث"
+    "SecondsAbb": "ث",
+    "StreakNotificationTitle": "لا تفقد سلسلتك!",
+    "StreakNotificationDescription": "العب مباراة واحدة للحفاظ عليها :)",
+    "Streak": "سلسلة"
 }

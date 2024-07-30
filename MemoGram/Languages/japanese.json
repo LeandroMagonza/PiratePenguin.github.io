@@ -55,5 +55,8 @@
     "UpgradeConsumableSlotDescription": "試合に<color={textHighlightColor}>{upgradeLevel}個の追加消耗品</color>を持ち込むことができ、各工場に<color={textHighlightColor}>{upgradeLevel|*3}個の追加消耗品</color>を保存します。",
     "FactoryNotificationTitle": "{consumableName}工場が満杯です",
     "FactoryNotificationBody": "あなたの{consumableName}を受け取りに来てください！",
-    "SecondsAbb": "秒"
+    "SecondsAbb": "秒",
+    "StreakNotificationTitle": "連勝を失わないで！",
+    "StreakNotificationDescription": "連勝を続けるために1試合プレイしてください :)",
+    "Streak": "連勝"
 }
