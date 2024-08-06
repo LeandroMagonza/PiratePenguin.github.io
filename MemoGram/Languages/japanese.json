@@ -58,5 +58,8 @@
     "SecondsAbb": "秒",
     "StreakNotificationTitle": "連勝を失わないで！",
     "StreakNotificationDescription": "連勝を続けるために1試合プレイしてください :)",
-    "Streak": "ストリーク"
+    "Streak": "ストリーク",
+    "Tutorial": "チュートリアル",
+    "TutorialText": "各画像が何回表示されるか数えてください！",
+    "Welcome": "ようこそ！"
 }

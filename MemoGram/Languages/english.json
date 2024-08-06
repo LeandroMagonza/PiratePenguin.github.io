@@ -58,5 +58,8 @@
     "SecondsAbb": "s",
     "StreakNotificationTitle": "Don't lose your streak!",
     "StreakNotificationDescription": "Play one match to keep it up :)",
-    "Streak": "Streak"
+    "Streak": "Streak",
+    "Tutorial": "Tutorial",
+    "TutorialText": "Count how many times each image appears!",
+    "Welcome": "Welcome!"
 }

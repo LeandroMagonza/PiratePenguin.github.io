@@ -58,5 +58,8 @@
     "SecondsAbb": "초",
     "StreakNotificationTitle": "연승을 놓치지 마세요!",
     "StreakNotificationDescription": "연승을 유지하려면 한 게임을 플레이하세요 :)",
-    "Streak": "연승"
+    "Streak": "연승",
+    "Tutorial": "튜토리얼",
+    "TutorialText": "각 이미지가 몇 번 나타나는지 세어보세요!",
+    "Welcome": "환영합니다!"
 }

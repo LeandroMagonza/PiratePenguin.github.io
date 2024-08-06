@@ -58,5 +58,8 @@
     "SecondsAbb": "s",
     "StreakNotificationTitle": "Ne perdez pas votre série !",
     "StreakNotificationDescription": "Jouez une partie pour la maintenir :)",
-    "Streak": "Série"
+    "Streak": "Série",
+    "Tutorial": "Tutoriel",
+    "TutorialText": "Comptez combien de fois chaque image apparaît !",
+    "Welcome": "Bienvenue !"
 }

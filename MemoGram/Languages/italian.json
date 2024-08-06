@@ -58,5 +58,8 @@
     "SecondsAbb": "s",
     "StreakNotificationTitle": "Non perdere la tua serie!",
     "StreakNotificationDescription": "Gioca una partita per mantenerla :)",
-    "Streak": "Serie"
+    "Streak": "Serie",
+    "Tutorial": "Tutorial",
+    "TutorialText": "Conta quante volte appare ogni immagine!",
+    "Welcome": "Benvenuto!"
 }

@@ -58,5 +58,8 @@
     "SecondsAbb": "秒",
     "StreakNotificationTitle": "不要失去你的连胜!",
     "StreakNotificationDescription": "玩一场比赛来保持它 :)",
-    "Streak": "连胜"
+    "Streak": "连胜",
+    "Tutorial": "教程",
+    "TutorialText": "数一数每个图像出现的次数！",
+    "Welcome": "欢迎！"
 }

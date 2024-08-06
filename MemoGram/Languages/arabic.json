@@ -58,5 +58,8 @@
     "SecondsAbb": "ث",
     "StreakNotificationTitle": "لا تفقد سلسلتك!",
     "StreakNotificationDescription": "العب مباراة واحدة للحفاظ عليها :)",
-    "Streak": "سلسلة"
+    "Streak": "سلسلة",
+    "Tutorial": "برنامج تعليمي",
+    "TutorialText": "عد عدد المرات التي تظهر فيها كل صورة!",
+    "Welcome": "أهلاً وسهلاً!"
 }

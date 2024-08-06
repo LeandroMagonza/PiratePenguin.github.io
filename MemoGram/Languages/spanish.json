@@ -58,5 +58,8 @@
     "SecondsAbb": "s",
     "StreakNotificationTitle": "¡No pierdas tu racha!",
     "StreakNotificationDescription": "Juega una partida para mantenerla :)",
-    "Streak": "Racha"
+    "Streak": "Racha",
+    "Tutorial": "Tutorial",
+    "TutorialText": "¡Cuenta cuantas veces aparece cada imagen!",
+    "Welcome": "¡Bienvenidos!"
 }
