@@ -1,5 +1,27 @@
 const games = [
   {
+    id: "memograms",
+    name: "MemoGram",
+    description:
+      "Simple memory game where you have a set of images, and have to guess how many times an image appeared since the game began.",
+    playLink: "https://leandromagonza.github.io/MemoryGame/",
+    codeLink: "https://github.com/LeandroMagonza/MemoryGame",
+    playStoreLink: "https://play.google.com/store/apps/details?id=com.piratepenguin.memogramworldflags",
+    images: [
+
+      "memoGram.jpg",
+      "memoGram1.jpg",
+      "memoGram2.jpg",
+      "memoGram3.jpg",
+      "memoGram4.jpg",
+      "memoGram5.jpg",
+      "memoGram6.png",
+      "memoGram7.png",
+      "memoGram8.png",
+      "memoGram9.png",
+    ]
+  },
+  {
     id: "axieBrawl",
     name: "Axie Brawl",
     description:
@@ -14,7 +36,7 @@ const games = [
       "axieBrawl6.jpg"
     ],
     updateLink: "https://x.com/AxieBrawl/status/1681337311835963401",
-    trailerLink: "https://www.youtube.com/watch?v=dsdNM6c5QJc"
+    trailerLink: "https://www.youtube.com/watch?v=dsdNM6c5QJc",
   },
   {
     id: "quantumTest3D",
@@ -35,27 +57,13 @@ const games = [
     ]
   },
   {
-    id: "memograms",
-    name: "MemoGrams",
-    description:
-      "Simple memory game where you have a set of images, and have to guess how many times an image appeared since the game began.",
-    playLink: "https://leandromagonza.github.io/MemoryGame/",
-    codeLink: "https://github.com/LeandroMagonza/MemoryGame",
-    images: [
-      "memoGrams.png",
-      "memoGrams2.png",
-      "memoGrams3.png",
-      "memoGrams4.png"
-    ]
-  },
-  {
     id: "secretChess",
     name: "Secret Chess",
     description:
       "Chess-based game, but with simultaneous action selection, so you don't know what the opponent moved on your turn, and then resolves automatically.",
     playLink: "https://leandromagonza.github.io/SecretChess/",
     codeLink: "https://github.com/LeandroMagonza/SecretChess",
-    images: ["secretChess.png", "secretChess2.png", "secretChess3.png"] // Replace with actual image links
+    images: ["secretChess.png", "secretChess2.png", "secretChess3.png"] 
   },
   {
     id: "rootKnight",
@@ -203,6 +211,11 @@ function loadGames() {
 function CreateTagboxList(game) {
   const cardTagbox = `
     <ul class="postcard__tagbox">
+     <li class="tag__item play ${!game.hasOwnProperty("playStoreLink") ? "hide" : ""
+    }" id="modalViewPlayStoreItem">
+            <a id="modalViewPlayStore" onclick="event.stopPropagation();" href="${game.playStoreLink
+    }"><i class="fas fa-exclamation mr-2"></i>Google Play Store</a>
+          </li>
           <li class="tag__item play  ${!game.hasOwnProperty("trailerLink") ? "hide" : ""
     }" id="modalPlayTrailerItem">
             <a id="modalPlayTrailer" onclick="event.stopPropagation();" href="${game.trailerLink
@@ -222,6 +235,7 @@ function CreateTagboxList(game) {
             <a id="modalViewUpdate" onclick="event.stopPropagation();" href="${game.updateLink
     }"><i class="fas fa-exclamation mr-2"></i>Last Update</a>
           </li>
+         
   
         </ul>`;
   return cardTagbox;
