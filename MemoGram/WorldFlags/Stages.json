@@ -1,86 +1,4 @@
 {
-  "items": [
-    {
-      "stageID": 0,
-      "title": "Africa",
-      "basePoints": 0,
-      "color": "ef7735",
-      "stickers": [28,32,40,44],
-      "packOdds" : {
-        "0":50,
-        "1":40,
-        "2":7,
-        "3":2,
-        "4":1
-      },
-      "packCost":50,
-      "stickerSet":"WorldFlags"
-    },
-    {
-      "stageID": 1,
-      "title": "North America",
-      "basePoints": 1,
-      "color": "bd2649",
-      "stickers": [15,21,23,35,45,38],
-      "packOdds" : {
-        "0":0,
-        "1":50,
-        "2":40,
-        "3":7,
-        "4":3
-      },
-      "packCost":150,
-      "stickerSet":"WorldFlags"
-    },
-    {
-      "stageID": 2,
-      "title": "South America",
-      "basePoints": 2,
-      "color": "ffac14",
-      "stickers": [5,22,31,33,36,37,42,46],
-      "packOdds" : {
-        "0":0,
-        "1":0,
-        "2":50,
-        "3":40,
-        "4":10
-      },
-      "packCost":300,
-      "stickerSet":"WorldFlags"
-    },
-    {
-      "stageID": 3,
-      "title": "Asia & Oceania",
-      "basePoints": 3,
-      "color": "cd5db1",
-      "stickers": [2,8,13,19,20,24,29,16,17,39],
-      "packOdds" : {
-        "0":0,
-        "1":0,
-        "2":0,
-        "3":50,
-        "4":50
-      },
-      "packCost":500,
-      "stickerSet":"WorldFlags"
-    },
-    {
-      "stageID": 4,
-      "title": "Europe",
-      "basePoints": 3,
-      "color": "71558e",
-      "stickers": [7,10,12,18,25,26,27,30,34,47,48,49],
-      "packOdds" : {
-        "0":0,
-        "1":0,
-        "2":0,
-        "3":50,
-        "4":50
-      },
-      "packCost":800,
-      "stickerSet":"WorldFlags"
-    }
-  ],
   "stickerLevels":{
     "1":{"amountRequired":5},
     "2":{"amountRequired":15},
@@ -96,7 +14,7 @@
     "stickersPerPack":5
   },
   "config":{
-    "version":3,
+    "version":4,
     "backgroundColor": "93D9F5",
     "baseExperiencePoints": 200,
     "experienceIncreasePerLevel": 1.5,
