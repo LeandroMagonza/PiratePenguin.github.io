@@ -15,11 +15,11 @@
   },
   "config":{
     "version":4,
-    "backgroundColor": "93D9F5",
+    "backgroundColor": "098E20",
     "baseExperiencePoints": 200,
     "experienceIncreasePerLevel": 1.5,
     "flatAmountOfStickerAdded":0,
     "scalingAmountOfStickerAdded":1,
-    "source": "Cloud"
+    "source": "Storage"
   }
 }
